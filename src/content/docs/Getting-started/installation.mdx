@@ -1,0 +1,20 @@
+---
+title: Installation
+description: A guide for Installing LunaStream & lit, luvit
+---
+
+In This installation Guide, We'll learn to install lit, Luvit which is required for LunaStream.
+
+Depending if you're using Windows or Linux, Select & use the given command in respect to your OS(operating System).
+
+import { Code } from '@astrojs/starlight/components';
+import { Badge } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+export const highlights = ['sh'];
+
+<Tabs>
+  <TabItem label="Windows"><Code code={`PowerShell -NoProfile -ExecutionPolicy unrestricted -Command "[Net.ServicePointManager]::SecurityProtocol = 'Tls12'; iex ((new-object net.webclient).DownloadString('https://github.com/LunaticSea/LunaStream/raw/main/scripts/get-lit.ps1'))"`} lang="js" title={'get-lit.ps1'} mark={highlights} wrap={true} /></TabItem>
+  <TabItem label="linux">
+  <Badge text="TODO" variant="note" size="large"/>
+  </TabItem>
+</Tabs>
