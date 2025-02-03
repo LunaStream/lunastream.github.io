@@ -4,11 +4,12 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https:/lunastream.github.io',
 	integrations: [
 		starlight({
 			title: 'LunaStream',
 			social: {
-				github: 'https://github.com/LunaticSea/LunaStream',
+				github: 'https://github.com/LunaStream/LunaStream',
 			},
 			sidebar: [
 				{
