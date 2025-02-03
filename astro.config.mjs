@@ -11,6 +11,9 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/LunaStream/LunaStream',
 			},
+			logo: {
+				src: './src/assets/lunastream.svg',
+			},
 			sidebar: [
 				{
 					label: 'Getting Started',
